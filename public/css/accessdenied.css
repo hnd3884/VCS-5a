@@ -1,0 +1,47 @@
+html {
+  background-color: #000121;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+body{
+    background-color: #000121;
+    height: 100%;
+    overflow: hidden;
+}
+
+.maincontainer {
+  position: relative;
+  top: -50px;
+  transform: scale(0.8);
+  width: 800px;
+  height: 600px;
+  margin: 0px auto;
+  display: grid;
+}
+
+.foregroundimg {
+  position: relative;
+  width: 100%;
+  top: 45px;
+  z-index: 5;
+}
+
+.errorcode {
+  position: relative;
+  top: -136px;
+  font-family: 'Creepster', cursive;
+  color: white;
+  text-align: center;
+  font-size: 6em;
+  letter-spacing: 0.1em;
+}
+
+.errortext {
+  position: relative;
+  top: -150px;
+  color: #FBD130;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.8em;
+}

@@ -1,0 +1,117 @@
+:root {
+  --main-bg-color: #4e73df;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+  position: fixed;
+  left: 0px;
+  top:0px;
+  bottom: 0px;
+  z-index: 100;
+  font-size: 16px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  background-color: var(--main-bg-color);
+  color: white!important;
+  height: 85px;
+  padding-top: 20px;
+}
+.list-group-flush .list-group-item {
+  background-color: var(--main-bg-color)!important;
+  color: white;
+  width: 233px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  margin-left: 300px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+    background-color: var(--main-bg-color) !important;
+    color: white;
+    width: 300px;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+a.list-group-item:hover {
+  color: white !important;
+}
+a.list-group-item {
+  color: rgba(255, 255, 255, 0.596) !important;
+  border: none;
+}
+a.sidebar-selected {
+  color: white !important;
+}
+.sidebar-heading > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center; 
+  font-size: 30px;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
+}
+.sidebar-icon{
+  width: 25px;
+  display: inline-block;
+}
+body{
+  font-size: 16px!important;
+  font-family: "Nunito", -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.btn{
+  font-size: 16px!important;
+}
+#sidebar-wrapper hr{
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  margin: 0px 10px 20px 10px;
+}
+.card-header h6{
+  color: var(--main-bg-color);
+}
+.btn-primary{
+  background-color: var(--main-bg-color);
+  outline-color: var(--main-bg-color);
+  border: 1px solid var(--main-bg-color);
+}
+.btn-primary:hover {
+  background-color: #344fa0;
+  border-color: #344fa0;
+}

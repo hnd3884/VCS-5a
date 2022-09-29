@@ -1,0 +1,17 @@
+.banner{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/loginbanner1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-login{
+    background-color: white;
+    border-radius: 5px;
+    width: 31%;
+    max-width: 450px;
+    padding: 30px;
+    margin-left: 200px;
+    margin-top: 200px;
+}

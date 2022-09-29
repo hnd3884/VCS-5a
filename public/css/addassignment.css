@@ -1,0 +1,13 @@
+#content .container{
+    width: 60%;
+    padding: 15px;
+}
+.btn-primary {
+    color: #fff!important;
+}
+#datetimepicker{
+    background-image: url('../assets/images/datepicker.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}

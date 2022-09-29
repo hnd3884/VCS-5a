@@ -1,0 +1,25 @@
+textarea[name="message"] {
+  width: 100%;
+  height: 170px;
+  border-radius: 5px;
+  border-color: gray;
+  outline: none;
+  resize: none;
+}
+.list-group-item a {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  float: right;
+  color: white!important;
+  margin-right: 10px;
+}
+textarea[name="newmessage"] {
+  border-radius: 5px;
+  height: 170px;
+  border-color: gray;
+  outline: none;
+  resize: unset;
+}
